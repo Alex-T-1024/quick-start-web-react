@@ -42,3 +42,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## My Customize
+
+- Add .babelrc.js
+- Add .editorconfig
+- Add .eslintrc.js
+- Add .env
+- Add .prettierrc.js
+- Add lint-staged.config.js
+- Add husky in package.json
+- Add source-map-explorer in package.json
+- Add node-sass
+- Add CSS reset
+- Add absolute imports in tsconfig.json
+- Add react-router-dom and Routes.tsx
+- Move origin App contents to ./src/routes
+
+## Naming Convention
+
+- All folders use camelCase
+- Components, css/scss and class use PacalCase
+
+## Development tips
+
+- Only use React Hooks with function component
