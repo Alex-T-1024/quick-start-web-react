@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './Home.scss'
-import DemoReactHooks from 'components/demo/DemoReactHooks'
+
 interface Props {}
 
 const Home: React.FC<Props> = () => {
@@ -21,7 +21,6 @@ const Home: React.FC<Props> = () => {
           Learn React
         </a>
       </header>
-      <DemoReactHooks />
     </div>
   )
 }
