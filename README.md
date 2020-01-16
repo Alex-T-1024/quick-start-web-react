@@ -50,6 +50,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Add .eslintrc.js
 - Add .env
 - Add .prettierrc.js
+- Add prettier plugin for eslint
 - Add lint-staged.config.js
 - Add husky in package.json
 - Add source-map-explorer in package.json
@@ -57,6 +58,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Add CSS reset
 - Add absolute imports in tsconfig.json
 - Add react-router-dom and Routes.tsx
+- Add craco to rewire CRA config
 - Move origin App contents to ./src/routes
 
 ## Naming Convention
@@ -67,3 +69,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Development tips
 
 - Only use React Hooks with function component
+- Recommend no use of default export
