@@ -89,19 +89,19 @@ module.exports = {
       },
       {
         name: 'toString',
-        message: 'Global use of `xxxxxxx` is not allowed.',
-      },
-      {
-        name: 'valueOf',
-        message: 'Global use of `xxxxxxx` is not allowed.',
-      },
-      {
-        name: '__proto__',
-        message: 'Global use of `xxxxxxx` is not allowed.',
+        message: 'Global use of `toString` is not allowed.',
       },
       {
         name: 'toLocaleString',
-        message: 'Global use of `xxxxxxx` is not allowed.',
+        message: 'Global use of `toLocaleString` is not allowed.',
+      },
+      {
+        name: 'valueOf',
+        message: 'Global use of `valueOf` is not allowed.',
+      },
+      {
+        name: '__proto__',
+        message: 'Global use of `__proto__` is not allowed.',
       },
     ],
     'no-undef': 2,
