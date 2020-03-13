@@ -107,6 +107,7 @@ module.exports = {
     'no-undef': 2,
     'no-useless-escape': 2,
     'no-var': 2,
+    'object-shorthand': ['warn', 'always'],
   },
   overrides: [
     // For TypeScript overrides
