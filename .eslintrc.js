@@ -2,14 +2,26 @@ module.exports = {
   root: true,
   extends: ['react-app', 'plugin:prettier/recommended'],
   rules: {
-    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    // React rules
     'react-hooks/exhaustive-deps': 0, // the official recommandation is always wrong
     // Plugins rules
     'prettier/prettier': 'warn',
-    'import/order': 'error',
+    'import/order': [
+      'error',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
+      },
+    ],
     // Custom rules
     'array-callback-return': 2,
-    'prefer-rest-params': 2,
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     'no-eval': 2,
     'no-loop-func': 2,
     'no-prototype-builtins': 2,
@@ -109,6 +121,7 @@ module.exports = {
     'no-useless-escape': 2,
     'no-var': 2,
     'object-shorthand': ['warn', 'always'],
+    'prefer-rest-params': 2,
   },
   overrides: [
     // For TypeScript overrides
