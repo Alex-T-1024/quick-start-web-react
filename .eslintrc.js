@@ -6,6 +6,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 0, // the official recommandation is always wrong
     // Plugins rules
     'prettier/prettier': 'warn',
+    'import/order': 'error',
     // Custom rules
     'array-callback-return': 2,
     'prefer-rest-params': 2,

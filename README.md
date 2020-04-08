@@ -51,6 +51,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Add .env
 - Add .prettierrc.js
 - Add prettier plugin for eslint
+- Add eslint-plugin-import for eslint
 - Add lint-staged.config.js
 - Add husky in package.json
 - Add source-map-explorer in package.json
