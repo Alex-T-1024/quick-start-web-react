@@ -120,7 +120,7 @@ module.exports = {
     'no-undef': 2,
     'no-useless-escape': 2,
     'no-var': 2,
-    'object-shorthand': ['warn', 'always'],
+    'object-shorthand': ['error', 'always'],
     'prefer-rest-params': 2,
   },
   overrides: [
